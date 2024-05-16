@@ -1,0 +1,14 @@
+pipeline{
+    stage("build") {
+        echo "welcome to build stage"
+    }
+    stage("Test"){
+        echo "welcome to Test stage"
+    }
+    stage("QA"){
+        echo "Welcome to QA stage"
+    }
+    stage("Deploy"){
+        echo " welcome to deploy stage"
+    }
+}
