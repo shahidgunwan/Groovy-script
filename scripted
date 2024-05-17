@@ -1,5 +1,5 @@
 pipeline{
-    stage("build") {
+    stage("build"){
         echo "welcome to build stage"
     }
     stage("Test"){
@@ -9,6 +9,6 @@ pipeline{
         echo "Welcome to QA stage"
     }
     stage("Deploy"){
-        echo " welcome to deploy stage"
+        echo "welcome to deploy stage"
     }
 }
