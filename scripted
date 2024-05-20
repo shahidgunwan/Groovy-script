@@ -1,22 +1,22 @@
 pipeline {
    agent any
     stages {
-    stage("build"){
+    stage("build") {
       steps {
         echo "welcome to build stage"
     }
 }
-    stage("Test"){
+    stage("Test") {
       steps {
         echo "welcome to Test stage"
     }
 }
-    stage("QA"){
+    stage("QA") {
       steps {
         echo "Welcome to QA stage"
     }
 }
-    stage("Deploy"){
+    stage("Deploy") {
       steps {
         echo "welcome to deploy stage"
     }
